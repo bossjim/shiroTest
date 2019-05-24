@@ -1,4 +1,4 @@
-package com.jy.core;
+package com.jy.deer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

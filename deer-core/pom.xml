@@ -23,12 +23,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.alibaba.boot</groupId>
-            <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>0.2.0</version>
-        </dependency>
-
         <!--集成redis，client改用jedis-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -140,6 +134,12 @@
                     <groupId>org.apache.shiro</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>0.2.0</version>
         </dependency>
     </dependencies>
 
